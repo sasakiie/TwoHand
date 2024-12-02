@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
 </svelte:head>
 
-<div class="flex flex-col justify-center items-center h-screen bg-[#058CD7]">
+<div class="flex flex-col justify-center items-center h-screen bg-gradient-to-r from-sky-500 to-indigo-500">
     <h1 class="text-3xl font-bold text-white">Welcome to</h1> <br>
-    <img src="/bitennnn_1.png" alt="" class=" w-[274px] ">
+    <img src="/logo.png" alt="" class=" w-[274px] ">
     <form class="bg-[#058CD7] px-8 pt-6 pb-8 mb-4">
         <div class="mb-4">
             <label for="First_Name" class="block text-white text-sm font-bold mb-2">
