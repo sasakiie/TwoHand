@@ -1,10 +1,3 @@
-<svelte:head>
-  <title>2hand E-commerce platform</title>
-  <!-- You can add other meta tags or head elements here -->
-  <meta name="description" content="A platform for buying and selling second-hand items.">
-  <meta charset="UTF-8">
-</svelte:head>
-
 <div class="min-h-screen py-48 bg-gradient-to-r from-sky-500 to-indigo-500 ">
     <div class="container mx-auto ">
         <div class="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden  ">
