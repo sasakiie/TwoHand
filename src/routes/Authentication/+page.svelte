@@ -1,5 +1,4 @@
 <script>
-    import Navbar from '../components/navigation.svelte'
     import UserRegister from './user-register.svelte';
     import MetaHead from  '../components/MetaHead.svelte';
     import NavBar from '../components/navigation.svelte';
@@ -11,6 +10,5 @@
 <div>
     <NavBar/>
     <!-- <h1>Authentication</h1> -->
-     <Navbar/>
     <UserRegister />
 </div>
