@@ -2,31 +2,35 @@
   import Icon from "@iconify/svelte";
 </script>
 
-<nav class=" p-4 ">
+<nav class="p-2">
+  <div class=" flex justify-end space-x-[100px] mb-[1px] mt-[1px]">
+    <a href="/Authentication">register</a>
+    <a href="/Authentication">register</a>
+    <a href="/Authentication">register</a>
+    <a href="/Authentication">register</a>
+  </div>
+  <div class="">
+    <div class="flex justify-around items-center">
+      <div class="text-white font-bold text-xl">
+        <a href="/Landing"><img src="/logo.png" alt="logo" class="w-24" /></a>
+      </div>
 
-  <div class="flex justify-around items-center ">
+      <!-- Search Bar -->
+      <form class=" ">
+        <div class="flex px-10">
+          <div class=" w-[800px]">
+            <input
+              type="search"
+              id="search-dropdown"
+              class="block p-2.5 pl-10 w-full text-sm text-gray-900 bg-gray-200"
+              placeholder="Search"
+              required
+            />
+          </div>
 
-    <div class="text-white font-bold text-xl">
-      <a href="/Home"><img src="/logo.png" alt="logo" class="w-24" /></a>
-    </div>
-
-    <!-- Search Bar -->
-    <form class=" ">
-      <div class="flex  px-10">
-
-        <div class=" w-[800px] ">
-          <input
-            type="search"
-            id="search-dropdown"
-            class="block p-2.5 pl-10 w-full text-sm text-gray-900 bg-gray-200 "
-            placeholder="Search"
-            required
-          />
-        </div>
-
-        <button
+          <button
             type="submit"
-            class=" top-0 right-0 p-2.5 text-sm font-medium h-10 text-white bg-blue-700  hover:bg-blue-800 "
+            class=" top-0 right-0 p-2.5 text-sm font-medium h-10 text-white bg-blue-700 hover:bg-blue-800"
           >
             <svg
               class="w-4 h-4"
@@ -45,18 +49,18 @@
             </svg>
             <span class="sr-only">Search</span>
           </button>
-      </div>
-    </form>
+        </div>
+      </form>
 
-    <!-- Cart icon -->
-      <a href="/" class="flex items-center ">
+      <!-- Cart icon -->
+      <a href="/" class="flex items-center">
         <button
-          class=" top-0 right-0  text-sm font-medium h-10 text-blue-800 hover:bg-gray-800 "
+          class=" top-0 right-0 text-sm font-medium h-10 text-blue-800 hover:bg-gray-800"
         >
-          <Icon icon="ic:outline-shopping-cart"class="w-full h-full" />
+          <Icon icon="ic:outline-shopping-cart" class="w-full h-full" />
         </button>
       </a>
-
+    </div>
   </div>
 </nav>
 
