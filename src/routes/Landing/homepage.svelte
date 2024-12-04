@@ -10,15 +10,20 @@
         "/F.jpg"
     ];
 </script>
-<div>
-    <div>
-        <h1>แนะนำสำหรับคุณ</h1>
+<div class="bg-white min-h-screen"> 
+
+    <div >
+        <div class="pl-[460px] py-1 ">
+            <h1>Ads</h1>
+        </div>
+        <Carousel images={carouselImages} />
+        
     </div>
-    <Carousel images={carouselImages} />
-    <div>
-        <h1>แนะนำสำหรับคุณ</h1>
-    </div>
-</div>
-<!-- <main class="bg-[url('https://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg')] min-h-screen">
     
-</main> -->
+    <div>
+        
+    
+    </div>
+
+</div>
+

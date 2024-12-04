@@ -1,8 +1,15 @@
 <script>
   import Icon from "@iconify/svelte";
+  import CartPage from "../components/CartPage.svelte";
+
+  let isCartOpen = false;
+
+  function toggleCart() {
+    isCartOpen = !isCartOpen;
+  }
 </script>
 
-<nav class="p-2">
+<nav class="p-2 drop-shadow-md">
   <div class=" flex justify-end space-x-[100px] mb-[1px] mt-[1px]">
     <a href="/Authentication">register</a>
     <a href="/Authentication">register</a>
@@ -53,16 +60,31 @@
       </form>
 
       <!-- Cart icon -->
-      <a href="/" class="flex items-center">
-        <button
-          class=" top-0 right-0 text-sm font-medium h-10 text-blue-800 hover:bg-gray-800"
-        >
-          <Icon icon="ic:outline-shopping-cart" class="w-full h-full" />
-        </button>
-      </a>
+      <button class="relative" on:click={toggleCart}>
+        <Icon icon="ic:outline-shopping-cart" class="w-8 h-8 text-blue-800" />
+      </button>
     </div>
   </div>
 </nav>
+<!-- Popup Cart -->
+{#if isCartOpen}
+  <div
+    class="fixed inset-0 z-50 bg-gray-800 bg-opacity-50 flex items-center justify-center"
+  >
+    <div class="bg-white rounded-lg shadow-lg w-3/4 max-w-2xl relative">
+      <!-- Close Button -->
+      <button
+        class="absolute top-2 right-2 text-gray-500"
+        on:click={toggleCart}
+      >
+        ✖
+      </button>
+
+      <!-- Cart Page Content -->
+      <CartPage />
+    </div>
+  </div>
+{/if}
 
 <style>
   nav {
