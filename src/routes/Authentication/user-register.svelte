@@ -15,6 +15,9 @@
                         <input type="text" placeholder="SurName" class="shadow border rounded-full py-1 px-2 text-gray-700 leading-tight focus:outline-none">
                     </div>
                     <div class="mt-5">
+                        <input type="text" placeholder="Username" class=" w-full shadow border rounded-full py-1 px-2 text-gray-700 leading-tight focus:outline-none">
+                    </div>
+                    <div class="mt-5">
                         <input type="email" placeholder="Email" class=" w-full shadow border rounded-full py-1 px-2 text-gray-700 leading-tight focus:outline-none">
                     </div>
                     <div class="mt-5">
@@ -34,7 +37,7 @@
                     <div class="mt-5 text-center">
                         <p class="text-gray-600 text-sm">
                           Already have an account? 
-                          <a href="/login" class="text-blue-500 hover:underline">Log in</a>
+                          <a href="/src/routes/Authentication/user-login.svelte" class="text-blue-500 hover:underline">Log in</a>
                         </p>
                       </div>
                     </form>
