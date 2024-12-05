@@ -17,7 +17,6 @@
             <h1>Ads</h1>
         </div>
         <Carousel images={carouselImages} />
-        
     </div>
     
     <div>
