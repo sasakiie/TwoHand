@@ -276,7 +276,7 @@
               <div class="mt-5">
                 <button
                   type="submit"
-                  class="bg-red-500 hover:bg-red-700
+                  class="bg-[#002D74] hover:bg-[#0e213d]
                         text-white  py-2 px-4 rounded-xl focus:outline-none w-full"
                 >
                   Register
