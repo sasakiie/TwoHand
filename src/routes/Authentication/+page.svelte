@@ -55,7 +55,7 @@
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class=" bi bi-eye absolute top-1/2 right-3 -translate-y-1/2"
+                    class=" bi bi-eye absolute top-1/2 right-4 -translate-y-1/2"
                     viewBox="0 0 16 16"
                   >
                     <path
