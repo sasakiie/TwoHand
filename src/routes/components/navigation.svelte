@@ -1,6 +1,6 @@
 <script>
   import Icon from "@iconify/svelte";
-  import CartPage from "../components/CartPage.svelte";
+  import CartPage from "./Carousel/CartPage.svelte";
 
   let isCartOpen = false;
 

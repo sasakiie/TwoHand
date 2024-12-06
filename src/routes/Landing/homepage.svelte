@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Carousel from '../components/Carousel.svelte';
-
+    import Carousel from '../components/Carousel/Carousel.svelte';
+    import Page from "../components/SellingObj.svelte"
     const carouselImages = [
         "/A.jpg",
         "/B.jpg",
@@ -10,7 +10,7 @@
         "/F.jpg"
     ];
 </script>
-<div class="bg-white min-h-screen"> 
+<div class="bg-Black min-h-screen"> 
 
     <div >
         <div class="pl-[460px] py-1 ">
@@ -19,9 +19,8 @@
         <Carousel images={carouselImages} />
     </div>
     
-    <div>
-        
-    
+    <div class="justify-items-center">
+        <Page/>
     </div>
 
 </div>

@@ -21,7 +21,7 @@
     }
 </script>
 
-<div class="relative  overflow-hidden justify-items-center">
+<div class="relative overflow-hidden justify-items-center">
     <div class="relative w-[988px] h-[400px]">
         {#each images as image, index}
             <div 
